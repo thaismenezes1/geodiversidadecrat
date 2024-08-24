@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_686e5f96874fe82dccdaf34f08e9e6b0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_686e5f96874fe82dccdaf34f08e9e6b0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_686e5f96874fe82dccdaf34f08e9e6b0 = L.map(
+                "map_686e5f96874fe82dccdaf34f08e9e6b0",
+                {
+                    center: [-5.177899688154476, -40.669244365600065],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7f0a26ce6a36d256fcbeb2ea210328c1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7f0a26ce6a36d256fcbeb2ea210328c1.addTo(map_686e5f96874fe82dccdaf34f08e9e6b0);
+        
+    
+            var circle_marker_3193c1017d33023cdb68ecf9475e6c5e = L.circleMarker(
+                [-5.4471738684227695, -40.8787985738965],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_686e5f96874fe82dccdaf34f08e9e6b0);
+        
+    
+            var circle_marker_c986c5d8955f59d7d5cb5ce8453115d4 = L.circleMarker(
+                [-5.14112045436142, -40.91609531717602],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_686e5f96874fe82dccdaf34f08e9e6b0);
+        
+    
+            var circle_marker_02907dec3a30ea4239eddfcde2841db6 = L.circleMarker(
+                [-4.283588322075896, -41.107030320575106],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_686e5f96874fe82dccdaf34f08e9e6b0);
+        
+    
+            var circle_marker_57bf9b99f57e503a976473bc60f267d2 = L.circleMarker(
+                [-5.0453971383316825, -41.23402887464447],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_686e5f96874fe82dccdaf34f08e9e6b0);
+        
+    
+            var marker_847b1104376fbb52477105e48397ef22 = L.marker(
+                [-5.4471738684227695, -40.8787985738965],
+                {}
+            ).addTo(map_686e5f96874fe82dccdaf34f08e9e6b0);
+        
+    
+        var popup_ab00fe1baac71768b213441cc780eacf = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ff3f8145c50a6841bf3af875f46754f7 = $(`<div id="html_ff3f8145c50a6841bf3af875f46754f7" style="width: 100.0%; height: 100.0%;"><a href='https://drive.google.com/file/d/1vUUgjZRPBoDQwDePccn8e8iyv8R0BZLo/view?usp=sharing'>Link para a foto</a></div>`)[0];
+                popup_ab00fe1baac71768b213441cc780eacf.setContent(html_ff3f8145c50a6841bf3af875f46754f7);
+            
+        
+
+        marker_847b1104376fbb52477105e48397ef22.bindPopup(popup_ab00fe1baac71768b213441cc780eacf)
+        ;
+
+        
+    
+    
+            marker_847b1104376fbb52477105e48397ef22.bindTooltip(
+                `<div>
+                     Furna dos Caboclos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_975a347b7abae08fb246b2abad12a046 = L.marker(
+                [-5.14112045436142, -40.91609531717602],
+                {}
+            ).addTo(map_686e5f96874fe82dccdaf34f08e9e6b0);
+        
+    
+        var popup_0cf6af019b70fc7b2e1ebe4f55598aba = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_490e63c8ae42276af8d5af56bdd0c342 = $(`<div id="html_490e63c8ae42276af8d5af56bdd0c342" style="width: 100.0%; height: 100.0%;"><a href='https://drive.google.com/file/d/16QAq6C0iFStyN9I9M5umTndGXof2ov3p/view?usp=sharing'>Link para a foto</a></div>`)[0];
+                popup_0cf6af019b70fc7b2e1ebe4f55598aba.setContent(html_490e63c8ae42276af8d5af56bdd0c342);
+            
+        
+
+        marker_975a347b7abae08fb246b2abad12a046.bindPopup(popup_0cf6af019b70fc7b2e1ebe4f55598aba)
+        ;
+
+        
+    
+    
+            marker_975a347b7abae08fb246b2abad12a046.bindTooltip(
+                `<div>
+                     Serra das Almas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45214fbda718b7f0995dab9668221b69 = L.marker(
+                [-4.283588322075896, -41.107030320575106],
+                {}
+            ).addTo(map_686e5f96874fe82dccdaf34f08e9e6b0);
+        
+    
+        var popup_2909d57854636368afe09927c7dea60d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4359cc7493ca18fb70fdf02b4c297a59 = $(`<div id="html_4359cc7493ca18fb70fdf02b4c297a59" style="width: 100.0%; height: 100.0%;"><a href='https://drive.google.com/file/d/1Nd0vPmA8DSQBApQD_mudGtPjoCfTRKrt/view?usp=sharing'>Link para a foto</a></div>`)[0];
+                popup_2909d57854636368afe09927c7dea60d.setContent(html_4359cc7493ca18fb70fdf02b4c297a59);
+            
+        
+
+        marker_45214fbda718b7f0995dab9668221b69.bindPopup(popup_2909d57854636368afe09927c7dea60d)
+        ;
+
+        
+    
+    
+            marker_45214fbda718b7f0995dab9668221b69.bindTooltip(
+                `<div>
+                     Glint da Ibiapaba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a46776b323d9a12d9800f01dcba5f6cf = L.marker(
+                [-5.0453971383316825, -41.23402887464447],
+                {}
+            ).addTo(map_686e5f96874fe82dccdaf34f08e9e6b0);
+        
+    
+        var popup_613177f5448fbd268e4908e8a2ef37b8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c13454f9a9f53457f3d9a47c0d501797 = $(`<div id="html_c13454f9a9f53457f3d9a47c0d501797" style="width: 100.0%; height: 100.0%;"><a href='https://drive.google.com/file/d/1JTqfmlYoebcgMJnUjcTipAdGsvwOvzH3/view?usp=sharing'>Link para a foto</a></div>`)[0];
+                popup_613177f5448fbd268e4908e8a2ef37b8.setContent(html_c13454f9a9f53457f3d9a47c0d501797);
+            
+        
+
+        marker_a46776b323d9a12d9800f01dcba5f6cf.bindPopup(popup_613177f5448fbd268e4908e8a2ef37b8)
+        ;
+
+        
+    
+    
+            marker_a46776b323d9a12d9800f01dcba5f6cf.bindTooltip(
+                `<div>
+                     Cânion do rio Poti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
